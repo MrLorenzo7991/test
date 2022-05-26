@@ -6,6 +6,7 @@ namespace test.Controllers
     {
         public IActionResult Index()
         {
+            string ciao = "ciao";
             return View();
         }
     }
